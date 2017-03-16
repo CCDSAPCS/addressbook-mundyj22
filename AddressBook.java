@@ -24,5 +24,17 @@ public class AddressBook {
    }
     public int haveContact(String s) {
 	    for(int i = 0; i<numfriends; i++) {
-		    if(friends[i].getName().equals(s) {
+		    if(friends[i].getName().equals(s)) 
+			    return i;
+	             return -1;
+         }
+	public static void menu() {
+		System.out.println("1. Add a new contact to your address book.");
+		System.out.println("2. Delete a contaact from your addfress book.");
+		System.out.println("3. Print out the number of contacts you have.");
+		System.out.println("4. Print out the information of all your contacts.");
+		Systme.out.println("5. Quit.");
+		System.out.println("Enter your menu choice: ");
+	}
+    }
 			    
